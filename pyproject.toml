@@ -1,0 +1,17 @@
+[project]
+name = "tns-mvp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.2.10",
+    "langchain-openai>=1.1.10",
+    "langchain-qdrant>=1.1.0",
+    "langgraph>=1.0.9",
+    "python-dotenv>=1.2.1",
+    "qdrant-client>=1.17.0",
+    "redis>=7.2.0",
+    "tree-sitter>=0.25.2",
+    "tree-sitter-languages>=1.10.2",
+]
