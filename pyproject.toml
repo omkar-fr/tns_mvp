@@ -6,12 +6,18 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.1",
+    "langchain-huggingface>=1.2.0",
     "langchain-openai>=1.1.10",
     "langchain-qdrant>=1.1.0",
+    "langchain-text-splitters>=1.1.1",
     "langgraph>=1.0.9",
     "python-dotenv>=1.2.1",
     "qdrant-client>=1.17.0",
     "redis>=7.2.0",
+    "sentence-transformers>=5.2.3",
+    "streamlit>=1.54.0",
     "tree-sitter>=0.25.2",
     "tree-sitter-languages>=1.10.2",
 ]
